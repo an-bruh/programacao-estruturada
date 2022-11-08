@@ -11,7 +11,8 @@ int main(){
   int number, work_hours;
   double hourly, salary;
 
-  scanf("%d %d", &number, &work_hours);
+  scanf("%d", &number);
+  scanf("%d", &work_hours);
   scanf("%lf", &hourly);
 
   salary = work_hours * hourly;
